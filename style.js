@@ -21,7 +21,7 @@
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				{ name: 'Énfasis2', element: 'span', attributes: { 'class': 'bck-enfasis2'} },
 
-				{ name: 'List 1', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'List 1', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
 				{ name: 'List 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'List 3', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
 				{ name: 'List 4', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
@@ -36,6 +36,10 @@
 				{ name: 'Box 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
 				{ name: 'Box 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
 				{ name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
+
+				{ name: 'Table', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
+				{ name: 'Cell 1', element: 'td', attributes: { 'class': 'bck-td' } },
+				{ name: 'Cell 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
 
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
