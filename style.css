@@ -277,9 +277,6 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
     background:#41BEA2;
 }
 
-#swipeview-slider .swipeview-active .item {
-    background: #60b96729;
-}
 
 .libro-left ul li .title:before {
     display: none;
@@ -1645,3 +1642,4 @@ th {
 		left: 48%;
 	}
 }
+
