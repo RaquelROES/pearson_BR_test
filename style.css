@@ -100,15 +100,6 @@ body {
 	text-align: left;
 }
 
-/*tamaño enunciado listas*/
-
-#actividad .pregunta .texto_curso {
-	font-size: 1.8rem;
-}
-
-#actividad textarea {
-    font-size: 18px;
-}
 
 /*ENLACE WEB*/
 
@@ -123,6 +114,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	font-weight: 600;
 	text-decoration: none;
 }
+
 /*INDICE LATERAL*/
 
 #indice .units ul li:not(.add) a .title {
@@ -406,28 +398,14 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	overflow: hidden;
 	padding-left: 20px;
 }
+
+
+
 /*--------------------------------TÍTULOS----------------------------------*/
 
 /*título genérico*/
 
-.bck-title {
-	color: #60B967;
-	font-size: 2.1rem;
-	border-bottom: none;
-	font-weight: inherit;
-}
 
-/*título PREPÁRATE*/
-
-
-.bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #60B967;
-	padding: 12px;
-	padding-left: 25px;
-}
 
 /*título 1*/
 
@@ -477,9 +455,14 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 }
 
 
+.bck-enfasis2 {
+	color: #60B967;
+	font-weight: bold;
+}
 
 
 /*LISTAS DESORDENADAS*/
+
 .texto_curso ul li {
 	padding-left: 20px;
  	margin-left: 20px;
@@ -527,6 +510,10 @@ body.is_app .pearson_BR_test-navbar.ocultar {
     margin-top: .6em;
     margin-left: -10px;
 }
+
+
+
+
 
 #actividad .content .cke_contents .bck-ol li:before,
 #actividad .content .texto_curso .bck-ol li:before,
@@ -718,14 +705,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	  border: 1px solid #60B967;
 }
 
-
-.bck-box.bck-box-1:after{
-	display:none;
-}
-
-.bck-box.bck-box-1:before{
-	display:none;
-}
 
 /*CAJA2*/
 .bck-box.bck-box-2 {
@@ -1212,342 +1191,7 @@ th {
 	background-color: #ac0910;
 }
 
-/*portada*/
-#actividad .portada .class_slide {
-	padding: 0px 97px 0px;
-	margin-top: -2%;
-}
 
-#actividad .carousel-inner .portada .item-container {
-	padding-bottom: 0px;
-}
-
-
-#actividad .carousel-inner .item-container {
-    background: #fff;
-}
-
-#actividad .carousel-inner .item-container.aux-bckg .class_slide {
-	background-color: transparent;
-}
-
-#actividad .content .portada img:not(.bck-cam-button) {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-/*TAGS*/
-/*Tag verde*/
-.activitytag_verde_pearson_BR_test #actividad .content .header .title h3 {
-	background: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-title-1 {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #556F35;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #556f3526;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-enfasis-8 {
-	background-color: #556F35;
-}
-
-/*Tag negra*/
-.activitytag_negra_pearson_BR_test #actividad .content .header .title h3 {
-	background: #333;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #000000;
-}
-
-/*Tag gold*/
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #E2C95F;
-}
-
-/*Tag azul*/
-
-.activitytag_azul_pearson_BR_test #actividad .content .header .title h3 {
-	background: #3B5A65;
-}
-
-.activitytag_azul_pearson_BR_test .bck-title-1 {
-	color: #3B5A65;
-}
-
-.activitytag_azul_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #3B5A65;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-enfasis-8 {
-	background-color: #385963;
-}
-
-/*Tag verde claro*/
-.activitytag_verdeclaro_pearson_BR_test #actividad .content .header .title h3 {
-	background: #00943C;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-title-1 {
-	color: #00943C;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #00943C;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #00943c40;
-	top: -20px;
-}
-
-/*tag rojo*/
-.activitytag_rojo_pearson_BR_test #actividad .content .header .title h3 {
-	background: #D73534;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-title-1 {
-	color: #D73534;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #333;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #d7353430;
-	top: -20px;
-}
-
-/*activity tag morado*/
-.activitytag_morado_pearson_BR_test #actividad .content .header .title h3 {
-	background: #853F57;
-}
-
-.activitytag_morado_pearson_BR_test .bck-title-1 {
-	color: #853F57;
-	font-size: 2.3rem;
-	padding-bottom: 5px;
-	margin-left: 0;
-}
-
-.activitytag_morado_pearson_BR_test .bck-title-preparate {
-	background: #853F57;
-}
-
-
-.activitytag_morado_pearson_BR_test .bck-box.bck-box-5 {
-	background-color: #853f5754;
-
-}
-
-/*tag naranja*/
-.activitytag_naranja_pearson_BR_test #actividad .content .header .title h3 {
-	background: #E07C3E;
-}
-
-/*WB*/
-.activitytag_wb_pearson_BR_test #actividad .content .header .title h3 {
-	background: #50748A;
-}
-
-/*sección intro*/
-#actividad .content .intro .header .title h3 {
-	color: #333;
-	font-size: 2.5rem;
-	font-weight: 400;
-	background: #fff;
-	width: 100%;
-	padding: 13px;
-}
-
-.intro .texto_curso ul li:before,
-.intro .workspace ul li ul li:before,
-.intro .cke_contents ul li:before,
-.intro .preview ul li:before,
-.intro .classify-item ul li:before,
-#actividad .workspace.multiple-choice .intro .js-item ul li:before,
-#actividad .workspace.matching .intro .box ul li:before,
-#actividad .workspace.ordenar .intro .js-rank-item ul li:before {
-	background-color: #fff;
-	color: #fff;
-}
-
-/**iframe**/
-#iframe_div.scorm {
-	width: 100% ! important;
-	height: 100% ! important;
-	top: 0px ! important;
-	left: 0px ! important;
-	background-color: #CCCCCC;
-}
-
-#iframe_div.scorm iframe#class_iframe {
-	width: 100% ! important;
-	height: 100% ! important;
-}
-
-#iframe_div.scorm .btn-close-iframe {
-	right: 0px;
-	top: 15px;
-	margin-top: 20px;
-}
-
-#iframe_div.scorm .btn-close-iframe span {
-	display: none;
-}
-
-#iframe_div.scorm .btn-close-iframe a {
-	padding: 16px;
-	background-color: #E9E9E9;
-	-webkit-border-bottom-left-radius: 10px;
-	-moz-border-radius-bottomleft: 10px;
-	border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-box-shadow: 0px 1px 5px #aaa;
-	-moz-box-shadow: 0px 1px 5px #aaa;
-	box-shadow: 0px 1px 5px #aaa;
-}
-
-#iframe_div.scorm .btn-close-iframe a .fa {
-	font-size: 2rem;
-}
 
 /*---------------------------------------------------- DESPLEGABLES --------------------------------------------------------------*/
 
@@ -1651,7 +1295,6 @@ th {
 	padding-left: 17px;
 	max-height: 800%;
 }
-
 
 
 .fa-times:before {
