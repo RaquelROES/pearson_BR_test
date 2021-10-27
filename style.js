@@ -13,25 +13,29 @@
 		ckEditorStyles: {
 			name: 'pearson_BR_test',
 			styles: [
-				{ name: 'Título Prepárate', element: 'h2', attributes: { 'class': 'bck-title bck-title-preparate'} },
-				{ name: 'Título 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
-				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
+				{ name: 'Title 01', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Title 02', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Title 03', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Title 04', element: 'h4', attributes: { 'class': 'bck-title4'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
+				{ name: 'Énfasis2', element: 'span', attributes: { 'class': 'bck-enfasis2'} },
 
-				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
-				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'List 1', element: 'ol', attributes: { 'class': 'bck-ol' } },
+				{ name: 'List 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
+				{ name: 'List 3', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+				{ name: 'List 4', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+
+				{ name: 'Bulleted list 1', element: 'ul', attributes: { 'class': 'bck-ul'} },
+				{ name: 'Bulleted list 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Bulleted list 3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
 
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
-				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
-				{ name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
+				{ name: 'Box 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Box 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Box 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
+				{ name: 'Box 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
+				{ name: 'Box 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
 
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
@@ -498,5 +502,4 @@ $(document).ready(function() {
 	});
 
 });
-
 
