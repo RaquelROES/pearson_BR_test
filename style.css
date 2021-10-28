@@ -737,11 +737,11 @@ h4.bck-title2 {
     border: 2px solid #75559C;
 }
 
-.bck-box.bck-box-2 .bck-content {
+.bck-box.box-2 .bck-content {
 	padding: 10px;
 }
 
-.bck-box.bck-box-2 .bck-title {
+.bck-box.box-2 .bck-title {
    background: #C1B1D4;
    color: #fff;
    padding: 10px;
@@ -749,9 +749,9 @@ h4.bck-title2 {
 
 
 /*CAJA 3*/
-.bck-box.bck-box-3 {
-	background-color: #C1B1D4;
-	border: 2px solid #75559C;	
+.bck-box.box-3.center {
+    background-color: #C1B1D4;
+    border: 2px solid #75559C;
 }
 
 .bck-box.bck-box-3 .bck-content {
@@ -1383,4 +1383,3 @@ th {
 		left: 48%;
 	}
 }
-
