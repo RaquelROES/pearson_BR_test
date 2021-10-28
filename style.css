@@ -7,6 +7,18 @@ strong {
     margin-bottom: 5px;
 }
 
+#top-navigator
+#top-navigator {
+    float: right;
+    display: inline-block;
+    width: auto;
+    height: 44 px;
+    overflow: hidden;
+    line-height: 5rem;
+    color: #fff;
+}
+
+
 /*tema*/
 .tema {
     color: #00598C;
