@@ -250,19 +250,15 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 }
 
 #actividad .content .header .title h3 {
-	color: #60B967;
+	color: #555;
     background: #fff;
     width: 100%;
-    border-bottom: 1px solid #60B967;
-    padding: 0px 30px 4px 0px;
+    border-bottom: 0px;
+    padding: 0px;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 12px;
 }
 
-#actividad .content .header .title h3::before{
-	content: '';
-	display: none;
-}
 
 .slide_main input:focus,
 .slide_main .form-control:focus {
