@@ -527,15 +527,20 @@ h4.bck-title2 {
 
 .content ol.bck-ol li:before,
 .cke_contents ol.bck-ol li:before{
-    content: counter(bck-li-counter, lower-alpha)')';
+    content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
     text-align: right;
     font-family: sans-serif;
     margin-right: 10px;
     margin-left: -27px;
-    font-weight: bold;
+    font-weight: 600;
     color: #CDC1DE;
 }
+
+.content ol.bck-ol li, .cke_contents ol.bck-ol li {
+    margin-bottom: 10px;
+}
+
 
 /*Lista 2*/
 
