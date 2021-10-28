@@ -527,20 +527,14 @@ h4.bck-title2 {
 
 .content ol.bck-ol li:before,
 .cke_contents ol.bck-ol li:before{
-    content: counter(bck-li-counter);
-    display: block;
-    position: absolute;
-    top: 1px;
-    left: -10px;
-    margin: auto;
-    color: #fff;
-    background: #009C9B;
-    text-align: center;
-    width: 25px;
-    height: 22px;
-    line-height: 2.0rem;
+    content: counter(bck-li-counter, lower-alpha)')';
+    position: relative;
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: 10px;
+    margin-left: -27px;
     font-weight: bold;
-    border-radius: 20px;
+    color: #CDC1DE;
 }
 
 /*Lista 2*/
@@ -605,13 +599,20 @@ h4.bck-title2 {
 
 .content ol.bck-ol-5 li:before,
 .cke_contents ol.bck-ol-5 li:before{
-    content: counter(bck-li-counter, lower-alpha)')';
-    position: relative;
-    text-align: right;
-    font-family: sans-serif;
-    margin-right: 10px;
-    margin-left: -27px;
+     content: counter(bck-li-counter);
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    margin: auto;
+    color: #fff;
+    background: #009C9B;
+    text-align: center;
+    width: 25px;
+    height: 22px;
+    line-height: 2.0rem;
     font-weight: bold;
+    border-radius: 20px;
 }
 
 /*Lista 6*/
