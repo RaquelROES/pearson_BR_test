@@ -18,17 +18,17 @@ strong {
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background: #E4A92B;
+    background: #00598C;
 }
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-    background: #E4A92B;
+    background: #00598C;
 }
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-    background: #E4A92B;
+    background: #00598C;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
@@ -127,7 +127,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 }
 
 .libro-left ul li a.book-index.active {
-    background-color: #E4A92B;
+    background-color: #00598C;
 }
 
 #book-index .col-main {
@@ -136,7 +136,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 #book-index .col-indice {
-    background: #E4A92B;
+    background: #00598C;
 }
 
 
@@ -147,7 +147,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 #indice .unit-content .header {
-    background: #60B967 !important;
+    background: #009AD7 !important;
 }
 
 #indice .unit-content .header .title {
@@ -208,7 +208,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 #book-index #indice .unit-content a:focus,
 #indice .units ul li a:focus,
 #indice .actividades a:focus {
-	color: #E4A92B;
+	color: #00598C;
 }
 
 #book-index #indice .unit-content .actividades .item {
@@ -270,14 +270,14 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 }
 
 .pearson_BR_test-navbar {
-	position: fixed;
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 100;
     width: 100%;
     height: 50px;
-    border-bottom: 4px solid #41BEA2;
-    background:#41BEA2;
+    border-bottom: 4px solid #00598C;
+    background: #00598C;
 }
 
 
@@ -393,7 +393,7 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 /*título genérico*/
 
 .bck-title {
-	color: #60B967;
+	color: #009AD7;
 	border-bottom: none;
 	font-weight: inherit;
 }
@@ -427,10 +427,10 @@ h4.bck-title2 {
 
 .bck-title-3 {
     font-weight: 100;
-    color: #60B967;
+    color: #009AD7;
     background: #fff;
     width: 100%;
-    border-bottom: 1px solid #60B967;
+    border-bottom: 1px solid #009AD7;
     padding: 0px 30px 4px 0px;
     font-weight: 300;
     font-size: 24px;
@@ -477,6 +477,12 @@ h4.bck-title2 {
 
 
 /* Lists */
+
+#actividad .pregunta .texto_curso {
+    font-size: 1.8rem;
+}
+
+
 
 
 .foro_wiki_cke_text ul li,
@@ -662,7 +668,7 @@ h4.bck-title2 {
 /*CAJA1*/
 
 .bck-box .bck-box-1 {
-	border: 1px solid #60B967;
+	border: 1px solid #009AD7;
     margin: auto;
     margin-bottom: 20px;
     background: #fff;
@@ -672,13 +678,13 @@ h4.bck-title2 {
 .bck-box-1 .bck-title {
 	color: #fff;
     font-weight: 300;
-    background-color: #60B967;
+    background-color: #009AD7;
     padding: 10px;
 }
 
 .bck-box.bck-box-1 .bck-content {
 	  padding: 10px 20px;
-	  border: 1px solid #60B967;
+	  border: 1px solid #009AD7;
 }
 
 
@@ -693,7 +699,7 @@ h4.bck-title2 {
 /*CAJA2*/
 .bck-box.bck-box-2 {
 	background: transparent;
-	border: 3px dotted #60B967;
+	border: 3px dotted #009AD7;
 	margin-top: 20px;
 	border-radius: 0px;
 }
@@ -712,7 +718,7 @@ h4.bck-title2 {
 /*CAJA 3*/
 .bck-box.bck-box-3 {
 	background: #fff;
-	border: 2px solid #60B967;
+	border: 2px solid #009AD7;
 	text-align: left;
 }
 
@@ -735,13 +741,13 @@ h4.bck-title2 {
 .bck-box.bck-box-4 {
 	min-height: 80px;
 	margin-top: 15px;
-	border: 1px solid #60B967;
+	border: 1px solid #009AD7;
 }
 
 .bck-box-4 .bck-title {
 	padding: 10px 25px;
 	border: 0px;
-	color: #60B967;
+	color: #009AD7;
 	font-weight: bold;
 }
 
@@ -762,7 +768,7 @@ h4.bck-title2 {
 
 .bck-box-5 .bck-title {
 	border-bottom: 0px solid #eee;
-	color: #60B967;
+	color: #009AD7;
 	font-weight: bold;
 	padding: 10px;
 }
@@ -789,7 +795,7 @@ h4.bck-title2 {
 
 .info-popover .popover-title,
 .popover-template .popover-title {
-	background: #41BEA2;
+	background: #00598C;
 }
 
 .info-template .info-title {
@@ -859,23 +865,23 @@ h4.bck-title2 {
 
 /*FIP-BOX*/
 body:not(.edit) .bck-flipbox-face.back {
-    background: #41BEA2;
+    background: #00598C;
     }
 
 body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
     border-width: 1px;
-    border-color: #41BEA2;
+    border-color: #00598C;
     min-height: 212px;
     cursor: pointer;
 }
 
 body:not(.edit) .bck-flipbox-face.front {
-    color: #41BEA2;
+    color: #00598C;
    cursor: pointer;
 }
 
 body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
-    color: #41BEA2;
+    color: #00598C;
     text-align: center;
     vertical-align: middle;
    cursor: pointer;
@@ -899,7 +905,7 @@ body:not(.edit) .bck-flipbox {
 
 /*ORDENAR*/
 #actividad .workspace.ordenar .js-rank-item {
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
     }
 
 
@@ -908,7 +914,7 @@ body:not(.edit) .bck-flipbox {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
 }
 
 
@@ -916,7 +922,7 @@ body:not(.edit) .bck-flipbox {
 #actividad .markword-active {
     border-radius: 0PX!important;
     padding: 4px !important;
-    border: 1px solid #60B967!important;
+    border: 1px solid #009AD7!important;
 }
 
 #actividad .markword-correct {
@@ -924,7 +930,7 @@ body:not(.edit) .bck-flipbox {
     color: #78bb31 !important;
     background-color: #d8efbe !important;
     border-radius: 0PX !important;
-    border: 1px solid #60B967 !important;
+    border: 1px solid #009AD7 !important;
 }
 
 #actividad .markword-false {
@@ -940,12 +946,12 @@ body:not(.edit) .bck-flipbox {
 
 /*RESPUESTA MULTIPLE*/
 #actividad .workspace.multiple-choice .opcion {
-	border: 1px solid #60B967;
+	border: 1px solid #009AD7;
 }
 
 /*RELLENAR ESPACIOS*/
 .fillblanks-draggable-wrapper .response {
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
 }
    
 
@@ -954,7 +960,7 @@ body:not(.edit) .bck-flipbox {
     width: auto;
     height: auto;
     font-weight: 300;
-    color: #60B967;
+    color: #009AD7;
     background-color: #fff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -969,7 +975,7 @@ body:not(.edit) .bck-flipbox {
 
 .btn-danger,
 .btn-danger[disabled] {
-    background-color: #E4A92B;
+    background-color: #00598C;
 }
 
 .btn-danger:hover,
@@ -977,15 +983,15 @@ body:not(.edit) .bck-flipbox {
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-    color: #E4A92B;
+    color: #00598C;
     background-color: #fff;
-    border: 1px solid #E4A92B;
+    border: 1px solid #00598C;
 }
 
 .btn-primary[disabled],
 .btn-primary[disabled]:focus {
     color: #fff;
-    background-color: #60B967;
+    background-color: #009AD7;
     border-color: transparent;
 }
 
@@ -994,7 +1000,7 @@ body:not(.edit) .bck-flipbox {
 .btn-solution[disabled],
 .btn-next, .btn-next.disabled,
 .btn-next[disabled] {
-    background-color: #E4A92B;
+    background-color: #00598C;
 }
 
 .btn {
@@ -1020,7 +1026,7 @@ body:not(.edit) .bck-flipbox {
 .btn-primary:not([disabled]):active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #41BEA2;
+    background-color: #00598C;
 }
 
 
@@ -1052,18 +1058,18 @@ body:not(.edit) .bck-flipbox {
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-	 border: 1px solid #60B967;
+	 border: 1px solid #009AD7;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
-    border-bottom: 1px solid #60B967;
+    border-bottom: 1px solid #009AD7;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -1072,7 +1078,7 @@ body:not(.edit) .bck-flipbox {
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-title {
     display: table-cell;
     vertical-align: middle;
-    color: #60B967;
+    color: #009AD7;
     font-weight: 100;
 }
 
@@ -1157,7 +1163,7 @@ th {
 .btn-primary,
 .btn-primary.disabled,
 .btn-primary.disabled:focus {
-	background-color: #60B967;
+	background-color: #009AD7;
 	border-radius: 0;
 }
 
@@ -1251,7 +1257,7 @@ th {
 /*Dropdown 1*/
 .bck-dropdown.bck-dropdown-1 {
     background-color: #ffffff;
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
     margin-top: 5px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -1259,26 +1265,42 @@ th {
 }
 
 .bck-dropdown .bck-dropdown-titulo {
-    color: #60B967;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #096B9A;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
 	background-color: #fff;
-    color: #60B967;
+    color: #009AD7;
 }
 
+.bck-dropdown-icon>.fa {
+    border: 0px;
+}
+
+.bck-dropdown-icon {
+    color: #096B9A;
+}
+
+
+.bck-dropdown-content {
+    max-height: fit-content;
+    background-color: #F3F0F8;
+}
 
 /*Dropdown 2*/
 
 .bck-dropdown-2 .fa-chevron-up:before, .bck-dropdown-2 .fa-chevron-down:before {
     content: "\f15b";
     font-size: 2.0rem;
-    color: #60B967;
+    color: #009AD7;
 }
 
 .bck-dropdown-2 .bck-dropdown-button {
     background: #fff;
-    border: 1px solid #60B967;
+    border: 1px solid #009AD7;
 }
 
 /*Dropdown 3*/
@@ -1298,7 +1320,7 @@ th {
 	width: 35px;
 	height: 10px;
 	float: right;
-	color: #60B967;
+	color: #009AD7;
 }
 
 .bck-dropdown-3 .bck-dropdown-icon>.fa {
@@ -1334,7 +1356,7 @@ th {
 }
 
 .bck-dropdown-3 .bck-dropdown-content {
-	background-color: #60B967;
+	background-color: #009AD7;
 	padding-left: 17px;
 	max-height: 800%;
 }
