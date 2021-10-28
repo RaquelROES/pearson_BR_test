@@ -518,7 +518,7 @@ ul {
     padding-inline-start: 15px;
 }
 
- .texto_curso ol.bck-ol li,
+
  .bck-ol li ,
  .bck-ol-2 li,
  .bck-ol-3 li,
@@ -535,6 +535,15 @@ ul {
     padding-left: 25px;
     margin-left: -15px;
 }
+
+.texto_curso ol li {
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    padding-left: 25px;
+    margin-left: -15px;
+    list-style: none;
+}
+
 
 /*Lista*/
 .texto_curso ol.bck-ol li:before,
