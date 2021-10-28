@@ -496,10 +496,6 @@ h4.bck-title2 {
     font-size: 1.8rem;
 }
 
-ul {
-    list-style: inherit;
-}
-
 .foro_wiki_cke_text ul li,
 .texto_curso ul li,
 .popover-template .popover-content ul li,
