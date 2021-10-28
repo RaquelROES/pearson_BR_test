@@ -496,8 +496,9 @@ h4.bck-title2 {
     font-size: 1.8rem;
 }
 
-
-
+ul {
+    list-style: inherit;
+}
 
 .foro_wiki_cke_text ul li,
 .texto_curso ul li,
@@ -535,10 +536,8 @@ h4.bck-title2 {
     margin-left: -15px;
 }
 
-
-
 /*Lista 1*/
-
+.texto_curso ol.bck-ol li:before,
 .content ol.bck-ol li:before, .cke_contents ol.bck-ol li:before {
     content: counter(bck-li-counter, lower-alpha)'.';
     position: relative;
