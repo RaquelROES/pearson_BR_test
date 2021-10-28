@@ -668,8 +668,8 @@ h4.bck-title2 {
 
 /*CAJA1*/
 
-.bck-box.bck-box-1 {
-	width: 80%;
+.bck-box.box-1.center {
+    width: 80%;
     margin: auto;
     border: 2px solid #CDC1DE;
     border-radius: 30px;
