@@ -391,43 +391,32 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 
 .bck-title {
 	color: #60B967;
-	font-size: 2.1rem;
 	border-bottom: none;
 	font-weight: inherit;
 }
 
-/*título PREPÁRATE*/
 
-
-.bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #60B967;
-	padding: 12px;
-	padding-left: 25px;
+/*TITULO 1*/
+h4.bck-title1 {
+    background: #00598C;
+    width: fit-content;
+    color: #009AD7;
+    border-bottom: 5px solid #009AD7;
+    padding: 5px 45px 3px 30px;
+    margin-left: -30px;
+    font-size: 30px;
 }
 
-/*título 1*/
+/*TITULO 2*/
 
-.bck-title-1 {
-	color: #60B967;
-	font-size: 2.6rem;
-	padding-bottom: 5px;
-	font-weight: bold;
-	border-bottom: none;
+h4.bck-title2 {
+    background: #00598C;
+    color: #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    -webkit-box-shadow: 10px 10px 0 0 #cdc1de;
+    box-shadow: 10px -5px 0 0 #cdc1de;
 }
-
-/*título 2*/
-
-.bck-title-2 {
-	color: #60B967;
-	font-size: 2.3rem;
-	padding-bottom: 5px;
-	font-weight: bold;
-	border-bottom: none;
-}
-
 /*título 3*/
 
 .bck-title-3 {
@@ -514,7 +503,7 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	content: counter(bck-li-counter);
 	position: relative;
 	text-align: left;
-	font-size: 1.9rem;
+	
 	font-family: sans-serif;
 	margin-left: -10px;
 }
@@ -555,7 +544,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	position: absolute;
 	text-align: right;
 	color: #333;
-	font-size: 1.8rem;
 	width: 29px;
 	margin-top: 0px;
 	left: -20px;
@@ -618,7 +606,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	content: counter(bck-li-counter, upper-alpha)'.';
 	position: absolute;
 	color: #000;
-	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: right;
 	left: -20px;
@@ -652,7 +639,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	content: counter(bck-li-counter, lower-alpha)'.';
 	position: absolute;
 	color: #000;
-	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: right;
 	left: -20px;
@@ -742,7 +728,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	padding: 10px 25px;
 	border: 0px;
 	color: #9D9D9C;
-	font-size: 1.8rem;
 	font-weight: bold;
 	background: #fff;
 }
@@ -759,7 +744,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	padding: 10px 25px;
 	border: 0px;
 	color: #60B967;
-	font-size: 1.8rem;
 	font-weight: bold;
 }
 
@@ -781,7 +765,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 .bck-box-5 .bck-title {
 	border-bottom: 0px solid #eee;
 	color: #60B967;
-	font-size: 2.1rem;
 	font-weight: bold;
 	padding: 10px;
 }
@@ -827,7 +810,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 .fa-info:before {
 	content: "+";
 	font-weight: bold;
-	font-size: 2.2rem;
 	line-height: 20px;
 	color: #333;
 }
@@ -846,7 +828,6 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 	background: #fff;
 	color: #1a171b;
 	font-family: 'FontAwesome';
-	font-size: 18px;
 	line-height: 24px;
 	text-align: center;
 }
@@ -898,7 +879,6 @@ body:not(.edit) .bck-flipbox-face.front {
 body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
     color: #41BEA2;
     text-align: center;
-    font-size: 17px;
     vertical-align: middle;
    cursor: pointer;
 }
@@ -1215,276 +1195,6 @@ th {
 	margin-bottom: 0px;
 }
 
-/*TAGS*/
-/*Tag verde*/
-.activitytag_verde_pearson_BR_test #actividad .content .header .title h3 {
-	background: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-title-1 {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #556F35;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #556f3526;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_pearson_BR_test .bck-enfasis-8 {
-	background-color: #556F35;
-}
-
-/*Tag negra*/
-.activitytag_negra_pearson_BR_test #actividad .content .header .title h3 {
-	background: #333;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #000000;
-}
-
-/*Tag gold*/
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #E2C95F;
-}
-
-/*Tag azul*/
-
-.activitytag_azul_pearson_BR_test #actividad .content .header .title h3 {
-	background: #3B5A65;
-}
-
-.activitytag_azul_pearson_BR_test .bck-title-1 {
-	color: #3B5A65;
-}
-
-.activitytag_azul_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #3B5A65;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-3 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-3 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-4 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_pearson_BR_test .bck-box.bck-box-4 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_pearson_BR_test .bck-enfasis-8 {
-	background-color: #385963;
-}
-
-/*Tag verde claro*/
-.activitytag_verdeclaro_pearson_BR_test #actividad .content .header .title h3 {
-	background: #00943C;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-title-1 {
-	color: #00943C;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #00943C;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verdeclaro_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #00943c40;
-	top: -20px;
-}
-
-/*tag rojo*/
-.activitytag_rojo_pearson_BR_test #actividad .content .header .title h3 {
-	background: #D73534;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-title-1 {
-	color: #D73534;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #333;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_rojo_pearson_BR_test .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #d7353430;
-	top: -20px;
-}
-
-/*activity tag morado*/
-.activitytag_morado_pearson_BR_test #actividad .content .header .title h3 {
-	background: #853F57;
-}
-
-.activitytag_morado_pearson_BR_test .bck-title-1 {
-	color: #853F57;
-	font-size: 2.3rem;
-	padding-bottom: 5px;
-	margin-left: 0;
-}
-
-.activitytag_morado_pearson_BR_test .bck-title-preparate {
-	background: #853F57;
-}
-
-
-.activitytag_morado_pearson_BR_test .bck-box.bck-box-5 {
-	background-color: #853f5754;
-
-}
-
-/*tag naranja*/
-.activitytag_naranja_pearson_BR_test #actividad .content .header .title h3 {
-	background: #E07C3E;
-}
-
-/*WB*/
-.activitytag_wb_pearson_BR_test #actividad .content .header .title h3 {
-	background: #50748A;
-}
-
-/*sección intro*/
-#actividad .content .intro .header .title h3 {
-	color: #333;
-	font-size: 2.5rem;
-	font-weight: 400;
-	background: #fff;
-	width: 100%;
-	padding: 13px;
-}
-
-.intro .texto_curso ul li:before,
-.intro .workspace ul li ul li:before,
-.intro .cke_contents ul li:before,
-.intro .preview ul li:before,
-.intro .classify-item ul li:before,
-#actividad .workspace.multiple-choice .intro .js-item ul li:before,
-#actividad .workspace.matching .intro .box ul li:before,
-#actividad .workspace.ordenar .intro .js-rank-item ul li:before {
-	background-color: #fff;
-	color: #fff;
-}
 
 /**iframe**/
 #iframe_div.scorm {
@@ -1642,4 +1352,3 @@ th {
 		left: 48%;
 	}
 }
-
