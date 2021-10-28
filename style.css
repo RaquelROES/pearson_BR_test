@@ -538,9 +538,7 @@ h4.bck-title2 {
 
 
 /*Lista 1*/
-.texto_curso ol.bck-ol li:before , 
-.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol.bck-ol li:before,
-.popover-content ol.bck-ol li:before;
+
 .content ol.bck-ol li:before,
 .cke_contents ol.bck-ol li::before{
     content: counter(bck-li-counter, lower-alpha)'.';
