@@ -1130,9 +1130,8 @@ body:not(.edit) .bck-flipbox {
 
 
 /**TABLA**/
-table,
-.bck-table {
-	border: 1px solid #ccc;
+table, .bck-table {
+    border: inherit;
 }
 
 table td,
