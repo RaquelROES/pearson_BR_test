@@ -582,15 +582,15 @@ h4.bck-title2 {
 .cke_contents .texto_curso  ol.bck-ol-2 li:before,
 .content ol.bck-ol-2 li:before,
 .cke_contents ol.bck-ol-2 li:before{
-    content: counter(bck-li-counter)'.';
+   content: counter(bck-li-counter)'';
     position: relative;
-    margin-left: -33px;
-    margin-right: 8px;
     text-align: right;
-    color: #000;
-    margin-top: -4px;
-    padding: 4px 6px;
     font-family: sans-serif;
+    margin-right: 10px;
+    margin-left: -27px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
 }
 
 
@@ -606,7 +606,7 @@ h4.bck-title2 {
     left: -10px;
     margin: auto;
     color: #fff;
-    background: #FBB900;
+    background: #75559C;
     text-align: center;
     width: 25px;
     height: 22px;
@@ -733,22 +733,25 @@ h4.bck-title2 {
 
 
 /*CAJA2*/
-.bck-box.bck-box-2 {
-	
+.bck-box.box-2.center {
+    border: 2px solid #75559C;
 }
 
 .bck-box.bck-box-2 .bck-content {
-	
+	padding: 10px;
 }
 
 .bck-box.bck-box-2 .bck-title {
-
+   background: #C1B1D4;
+   color: #fff;
+   padding: 10px;
 }
 
 
 /*CAJA 3*/
 .bck-box.bck-box-3 {
-	
+	background-color: #C1B1D4;
+	border: 2px solid #75559C;	
 }
 
 .bck-box.bck-box-3 .bck-content {
