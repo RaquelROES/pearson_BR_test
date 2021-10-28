@@ -422,7 +422,9 @@ h4.bck-title2 {
     padding: 5px 15px;
     -webkit-box-shadow: 10px 10px 0 0 #cdc1de;
     box-shadow: 10px -5px 0 0 #cdc1de;
+    margin-bottom: 30px;
 }
+
 /*título 3*/
 
 .bck-title-3 {
