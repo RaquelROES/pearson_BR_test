@@ -974,7 +974,11 @@ body:not(.edit) .bck-flipbox {
 .fillblanks-draggable-wrapper .response {
     border: 1px solid #009AD7;
 }
-   
+
+  .fillblanks-draggable-wrapper {
+    text-align: center;
+} 
+
 
 /*Botones de actividades*/
 #actividad .content .review .attemps span {
@@ -1166,15 +1170,12 @@ th {
 }
 
 .bck-table-center {
-    color: #fff;
     margin: 0 auto;
-    background: #0091d0;
-    background: -moz-radial-gradient(center, ellipse cover, #0091d0 0%, #0071c4 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, #0091d0 0%,#0071c4 100%);
-    background: radial-gradient(ellipse at center, #0091d0 0%,#0071c4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0091d0', endColorstr='#0071c4',GradientType=1 );
-}
+  }
 
+td.bck-td {
+    background: #E1DAED;
+}
 
 
 /*Boton toc - boton reininciar ejercicio*/
