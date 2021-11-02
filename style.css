@@ -263,7 +263,6 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 
 #actividad .content .header .title h3 {
 	color: #555;
-    background: #fff;
     width: 100%;
     border-bottom: 0px;
     padding: 0px;
@@ -976,7 +975,7 @@ body:not(.edit) .bck-flipbox {
 }
 
   .fillblanks-draggable-wrapper {
-    text-align: center;
+    text-align: center !important;
 } 
 
 
@@ -1393,3 +1392,4 @@ td.bck-td {
 		left: 48%;
 	}
 }
+
