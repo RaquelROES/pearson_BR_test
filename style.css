@@ -498,10 +498,6 @@ h4.bck-title2 {
    counter-reset: bck-li-counter;
 }
 
-li:before {
-    content: counter(bck-li-counter)' ';
-}
-
 
 #actividad .pregunta .texto_curso {
     font-size: 1.8rem;
@@ -523,6 +519,7 @@ li:before {
 
 
  .bck-ol li ,
+ .bck-ol-1 li,
  .bck-ol-2 li,
  .bck-ol-3 li,
  .bck-ol-4 li,
@@ -1392,4 +1389,3 @@ th {
 		left: 48%;
 	}
 }
-
