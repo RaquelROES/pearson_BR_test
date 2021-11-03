@@ -270,6 +270,11 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
     font-size: 12px;
 }
 
+#actividad .content .header {
+    margin-bottom: 20px;
+    border-bottom: 0px;
+}
+
 
 .slide_main input:focus,
 .slide_main .form-control:focus {
