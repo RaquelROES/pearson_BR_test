@@ -64,6 +64,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 
 /*General */
+
+#indice .units ul li a .title {
+    color: #ccc;
+}
+
 #book-index #indice .units ul li a .title {
 	margin: 0;
 	font-size: 14px;
@@ -154,7 +159,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 #book-index #indice .units ul li.active a {
-    background: #af8120;
+    background: #009AD7;
 }
 
 
@@ -231,7 +236,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
     color: #000;
-    background: #e4ba1f;
+    background: #009AD7;
 }
 
 #book-index #indice .units ul li a .title {
@@ -242,7 +247,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 
 #book-index #indice .unit-content .content .title-buttons .btn {
     font-size: 16px;
-    color: #666;
+    color: #eee;
 }
 
 #book-index #indice .unit-content .content .title-buttons {
