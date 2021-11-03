@@ -349,61 +349,19 @@ body.is_app .pearson_BR_test-navbar.ocultar {
 }
 
 /*Icono audio*/
-#actividad .player.audio {
-	background-image: url(imagenes_difusion/img_audio.png);
-	color: #fff;
+
+#actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+    background-color: #ffff;
+    background-image: url(images/icon_audio_pearsonbr.PNG);
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; 
+    vertical-align: middle;
+    background-size: contain;
 }
 
 
-#actividad .content img.player,
-#actividad .player.audio,
-#actividad .player.video,
-#help-panel-content .player,
-#remote-alert-modal-rich .player {
-	height: 25px !important;
-	width: 27px;
-	display: inline-block;
-	background-repeat: no-repeat;
-	border-radius: 100%;
-	margin: 0 5px;
-	vertical-align: sub;
-}
-
-.bck-sub-label,
-.bck-file-label {
-	background: transparent;
-	-webkit-border-radius: 5px 5px;
-	-moz-border-radius: 5px 5px;
-	border-radius: 5px 5px;
-	max-width: 200px;
-	margin: 0px;
-	padding: 0px;
-	display: inline-block;
-	text-align: center;
-	overflow-wrap: break-word;
-}
-
-.bck-file-attach:before {
-	content: " ";
-	background-image: url(imagenes_difusion/icono_transcripciones.png);
-	background-repeat: no-repeat;
-	padding: 10px;
-	background-size: contain;
-	margin-top: 4px;
-	position: absolute;
-}
-
-.bck-file-attach img {
-	display: none;
-}
-
-.bck-file-attach span {
-	display: inline-block;
-	max-width: 100%;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	padding-left: 20px;
-}
 /*--------------------------------TÍTULOS----------------------------------*/
 
 /*título genérico*/
