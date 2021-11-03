@@ -359,6 +359,7 @@ body.is_app .pearson_BR_test-navbar.ocultar {
     border-radius: 0px; 
     vertical-align: middle;
     background-size: contain;
+    background-position: inherit;
 }
 
 
