@@ -28,6 +28,10 @@ strong {
 
 /*TOC*/
 
+#indice .units ul li {
+    background: #133b53;
+}
+
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
     background: #00598C;
